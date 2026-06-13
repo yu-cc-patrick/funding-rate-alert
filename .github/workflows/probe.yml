@@ -1,0 +1,15 @@
+name: probe
+on:
+  workflow_dispatch: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: probe binance hosts
+        run: |
+          for H in fapi.binance.com dapi.binance.com api.binance.com api1.binance.com api-gcp.binance.com fapi.binancefuture.com data-api.binance.vision; do
+            CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "https://$H/fapi/v1/time" 2>/dev/null || echo "ERR")
+            echo "$H -> $CODE"
+          done
+          echo "--- spot time on data-api.binance.vision ---"
+          curl -s -o /dev/null -w "%{http_code}\n" --max-time 15 "https://data-api.binance.vision/api/v3/time"

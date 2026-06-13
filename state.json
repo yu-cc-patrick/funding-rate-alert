@@ -1005,7 +1005,7 @@
   },
   "ESPORTSUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ESPUSDT": {
     "extreme": false,
@@ -2457,7 +2457,7 @@
   },
   "STGUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "STMXUSDT": {
     "extreme": false,

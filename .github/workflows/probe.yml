@@ -5,11 +5,14 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: probe binance hosts
+      - name: probe binance.vision futures paths
         run: |
-          for H in fapi.binance.com dapi.binance.com api.binance.com api1.binance.com api-gcp.binance.com fapi.binancefuture.com data-api.binance.vision; do
-            CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "https://$H/fapi/v1/time" 2>/dev/null || echo "ERR")
-            echo "$H -> $CODE"
+          for P in "/fapi/v1/premiumIndex" "/fapi/v1/fundingInfo" "/futures/data/..." "/api/v3/time"; do
+            CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "https://data-api.binance.vision$P" 2>/dev/null || echo ERR)
+            echo "data-api.binance.vision$P -> $CODE"
           done
-          echo "--- spot time on data-api.binance.vision ---"
-          curl -s -o /dev/null -w "%{http_code}\n" --max-time 15 "https://data-api.binance.vision/api/v3/time"
+          echo "--- 直接看 premiumIndex 内容前300字符 ---"
+          curl -s --max-time 15 "https://data-api.binance.vision/fapi/v1/premiumIndex?symbol=BTCUSDT" | head -c 300
+          echo ""
+          echo "--- fundingInfo 前300 ---"
+          curl -s --max-time 15 "https://data-api.binance.vision/fapi/v1/fundingInfo" | head -c 300

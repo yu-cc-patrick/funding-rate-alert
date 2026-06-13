@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: binance-relay
+    runtime: python
+    region: singapore        # 非美区, 币安可达
+    plan: free
+    startCommand: python relay/server.py
+    healthCheckPath: /health
+    envVars:
+      - key: RELAY_TOKEN
+        sync: false          # 在 Render 网页上手动填一个随机密钥

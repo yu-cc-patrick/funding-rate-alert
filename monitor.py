@@ -5,15 +5,18 @@
   1. 结算周期变化: 正常(8h/4h) <-> 极端(1h)
   2. 资金费率绝对值跨越 1% 阈值
 
-在非美区服务器上由 systemd timer 每 5 分钟运行一次,
-状态持久化在脚本同目录的 state.json。
+在 GitHub Actions 上每 5 分钟运行一次。由于币安封锁美区 IP(451),
+而 GHA runner 在美区, 因此请求经由非美区中转(relay)转发到币安。
+状态持久化在 state.json, 由 GitHub Actions 提交回仓库。
 """
 import json
 import os
 import sys
 import urllib.request
 
-BINANCE_BASE = "https://fapi.binance.com"
+# 默认直连币安; 若设置了 BINANCE_BASE(指向非美区 relay)则走 relay
+BINANCE_BASE = os.environ.get("BINANCE_BASE", "https://fapi.binance.com").rstrip("/")
+RELAY_TOKEN = os.environ.get("RELAY_TOKEN", "")
 RATE_THRESHOLD = 0.01          # 1%
 EXTREME_INTERVAL_HOURS = 1     # 周期降到 1h 视为极端
 DEFAULT_INTERVAL_HOURS = 8     # 未在 fundingInfo 中的币种默认 8h
@@ -43,7 +46,10 @@ TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 
 def http_get_json(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "funding-alert/1.0"})
+    headers = {"User-Agent": "funding-alert/1.0"}
+    if RELAY_TOKEN:
+        headers["X-Relay-Token"] = RELAY_TOKEN
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=20) as resp:
         return json.loads(resp.read().decode("utf-8"))
 

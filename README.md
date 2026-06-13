@@ -7,58 +7,59 @@
    - 1h → 恢复:推送「恢复正常」
 2. **费率绝对值 > 1%** —— 无论周期多少,`|fundingRate|` 跨越 ±1% 时推送(回落时也提醒)。
 
-只发 Telegram,不发邮件。
+只发 Telegram,不发邮件。完全免费,跑在 GitHub Actions 上,电脑关机不影响。
 
-## ⚠️ 必须用非美区服务器
+## 架构(为什么需要 relay)
 
-币安合约接口 (`fapi.binance.com`) **封锁美国 IP(返回 451)**。GitHub Actions 免费 runner 在美区,拿不到数据,因此**不能用 GitHub Actions**,必须跑在非美区服务器上。
+币安合约接口封锁美国 IP(返回 **451**),而 GitHub Actions 免费 runner 在美区。
+所以加一个**非美区的轻量中转(relay)**:GitHub Actions 照常每 5 分钟跑,
+把请币安的请求转发给部署在新加坡区的 relay,由它代为访问币安。
 
-推荐 **Oracle Cloud 永久免费机**(注册时区域选东京/大阪/新加坡/首尔等,ARM 实例永久免费):
-- 注册:https://www.oracle.com/cloud/free/
-- 创建一台 Ubuntu 实例,记下公网 IP 和 SSH key
-
-其他非美区的便宜小鸡(搬瓦工日本/新加坡、Vultr 东京等)也行。
-
-## 部署(在服务器上)
-
-```bash
-# 1. 把项目传到服务器(在本地执行)
-scp -r funding-rate-alert ubuntu@<服务器IP>:~/
-
-# 2. SSH 登录服务器
-ssh ubuntu@<服务器IP>
-
-# 3. 填配置
-cd ~/funding-rate-alert
-cp .env.example .env
-nano .env          # 填入 TELEGRAM_BOT_TOKEN 和 TELEGRAM_CHAT_ID
-
-# 4. 一键安装(装 systemd 定时器, 每5分钟跑一次)
-sudo bash deploy/install.sh
+```
+GitHub Actions (美区, 每5分钟)
+      │  GET <relay>/fapi/v1/premiumIndex
+      ▼
+Render 新加坡 relay  ──→  fapi.binance.com (可达)
 ```
 
-安装脚本会:校验币安是否可达(非 200 会警告)、装好 systemd service+timer、立即跑一次建立基线。
+relay 用 Render 免费套餐,GitHub 登录即可部署,**无需信用卡、无需 SSH**。
 
-## 常用命令
+## 部署步骤
 
-```bash
-systemctl list-timers funding-alert.timer            # 看下次运行时间
-journalctl -u funding-alert.service -n 50 --no-pager # 看日志
-systemctl start funding-alert.service                # 手动跑一次
-systemctl disable --now funding-alert.timer          # 停止
-```
+### 1. 先把仓库推到 GitHub(已完成)
+仓库:`yu-cc-patrick/funding-rate-alert`(私有)
 
-## 工作原理
+### 2. 部署 relay 到 Render
+1. 打开 https://render.com,用 GitHub 登录。
+2. New → **Blueprint**,选这个仓库,Render 会读取 `render.yaml` 自动建一个新加坡区 Web Service。
+3. 部署时它会要你填 `RELAY_TOKEN`——填一个随机字符串(自己设,比如 32 位随机串),记下来。
+4. 部署完成后拿到服务地址,形如 `https://binance-relay-xxxx.onrender.com`。
+5. 浏览器访问 `<地址>/fapi/v1/time`,带不带 token 测一下能否返回币安时间。
 
-- systemd timer 每 5 分钟运行 `monitor.py`(开机补跑错过的任务)。
-- 拉 `/fapi/v1/premiumIndex`(当前费率)和 `/fapi/v1/fundingInfo`(被调整过的结算周期)。
-- 与上一轮的 `state.json` 对比,只在状态切换时推送。
-- **首次运行**只建基线,不会把存量极端币种全推一遍。
+> Render 免费 Web Service 闲置 15 分钟会休眠,被请求时自动唤醒(冷启动几十秒)。
+> 每 5 分钟一次的定时请求基本能让它保持活跃;偶尔冷启动会让某一轮慢一点,不影响结果。
+
+### 3. 配置 GitHub Secrets
+仓库 → Settings → Secrets and variables → Actions,加 4 条:
+- `TELEGRAM_BOT_TOKEN`
+- `TELEGRAM_CHAT_ID`
+- `BINANCE_BASE` = relay 地址(如 `https://binance-relay-xxxx.onrender.com`)
+- `RELAY_TOKEN` = 第 2 步设的随机串
+
+### 4. 跑起来
+Actions 页面 → funding-rate-alert → **Run workflow**。
+首次运行只建基线(不推送),之后每 5 分钟按变化推送。
 
 ## 调整参数
-
 `monitor.py` 顶部:
 - `RATE_THRESHOLD = 0.01` —— 费率阈值(1%)
 - `EXTREME_INTERVAL_HOURS = 1` —— 多少小时周期算极端
 
-运行间隔在 `deploy/funding-alert.timer` 的 `OnUnitActiveSec=5min`。
+cron 间隔在 `.github/workflows/monitor.yml` 的 `*/5 * * * *`。
+
+## 本地直连(可选)
+若你在非美区网络,可不经 relay 直接跑:
+```bash
+export TELEGRAM_BOT_TOKEN=xxx TELEGRAM_CHAT_ID=xxx
+python3 monitor.py     # 默认直连 fapi.binance.com
+```

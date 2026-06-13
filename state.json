@@ -1004,8 +1004,8 @@
     "high": false
   },
   "ESPORTSUSDT": {
-    "extreme": false,
-    "high": false
+    "extreme": true,
+    "high": true
   },
   "ESPUSDT": {
     "extreme": false,

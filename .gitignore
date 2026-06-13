@@ -1,5 +1,6 @@
-# state.json 需要被提交回仓库做状态持久化, 不要忽略
+# state.json 在服务器本地生成, 不需要进仓库
 __pycache__/
 *.pyc
 .venv/
 .env
+state.json

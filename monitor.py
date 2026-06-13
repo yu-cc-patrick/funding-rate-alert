@@ -5,7 +5,8 @@
   1. 结算周期变化: 正常(8h/4h) <-> 极端(1h)
   2. 资金费率绝对值跨越 1% 阈值
 
-状态持久化在 state.json, 由 GitHub Actions 提交回仓库。
+在非美区服务器上由 systemd timer 每 5 分钟运行一次,
+状态持久化在脚本同目录的 state.json。
 """
 import json
 import os
@@ -16,8 +17,27 @@ BINANCE_BASE = "https://fapi.binance.com"
 RATE_THRESHOLD = 0.01          # 1%
 EXTREME_INTERVAL_HOURS = 1     # 周期降到 1h 视为极端
 DEFAULT_INTERVAL_HOURS = 8     # 未在 fundingInfo 中的币种默认 8h
-STATE_FILE = "state.json"
 
+# 状态文件放脚本同目录, 不依赖运行时的工作目录
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATE_FILE = os.path.join(SCRIPT_DIR, "state.json")
+
+
+def _load_dotenv():
+    """若同目录有 .env, 读入环境变量(不覆盖已存在的)。"""
+    path = os.path.join(SCRIPT_DIR, ".env")
+    if not os.path.exists(path):
+        return
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, val = line.partition("=")
+            os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+
+_load_dotenv()
 TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 

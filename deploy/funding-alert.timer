@@ -1,0 +1,12 @@
+[Unit]
+Description=Run funding-alert every 5 minutes
+
+[Timer]
+# 启动后 1 分钟首次运行, 之后每 5 分钟一次
+OnBootSec=1min
+OnUnitActiveSec=5min
+# 错过的任务(关机期间)开机后补跑一次
+Persistent=true
+
+[Install]
+WantedBy=timers.target

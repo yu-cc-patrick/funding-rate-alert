@@ -1684,7 +1684,7 @@
     "high": false
   },
   "METAUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "METISUSDT": {
@@ -2413,7 +2413,7 @@
   },
   "SPELLUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "SPKUSDT": {
     "extreme": false,
@@ -2965,7 +2965,7 @@
   },
   "ZKCUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ZKJUSDT": {
     "extreme": false,

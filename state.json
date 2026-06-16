@@ -1320,7 +1320,7 @@
     "high": false
   },
   "HPEUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "HUMAUSDT": {

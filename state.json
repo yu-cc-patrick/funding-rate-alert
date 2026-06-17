@@ -2428,7 +2428,7 @@
     "high": false
   },
   "SPYUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "SQDUSDT": {

@@ -1004,7 +1004,7 @@
     "high": false
   },
   "ESPORTSUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "ESPUSDT": {
@@ -2203,6 +2203,10 @@
     "extreme": false,
     "high": false
   },
+  "REUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "REZUSDT": {
     "extreme": false,
     "high": false
@@ -2428,7 +2432,7 @@
     "high": false
   },
   "SPYUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "SQDUSDT": {

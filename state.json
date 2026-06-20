@@ -1329,7 +1329,7 @@
   },
   "HUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "HYPERUSDT": {
     "extreme": false,

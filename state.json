@@ -356,7 +356,7 @@
     "high": false
   },
   "AVGOUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "AVNTUSDT": {
@@ -2136,7 +2136,7 @@
     "high": false
   },
   "QQQUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "QTUMUSDT": {
@@ -2872,7 +2872,7 @@
     "high": false
   },
   "XLEUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "XLMUSDT": {

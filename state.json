@@ -2589,7 +2589,7 @@
   },
   "TNSRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "TOKENUSDT": {
     "extreme": false,

@@ -2225,7 +2225,7 @@
   },
   "REUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "REZUSDT": {
     "extreme": false,

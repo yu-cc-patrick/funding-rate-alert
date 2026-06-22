@@ -1077,7 +1077,7 @@
   },
   "FIDAUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "FIGHTUSDT": {
     "extreme": false,
@@ -2225,7 +2225,7 @@
   },
   "REUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "REZUSDT": {
     "extreme": false,

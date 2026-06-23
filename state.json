@@ -1541,7 +1541,7 @@
   },
   "KORUUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "KSMUSDT": {
     "extreme": false,

@@ -1316,7 +1316,7 @@
     "high": false
   },
   "HOMEUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "HOODUSDT": {
@@ -1541,7 +1541,7 @@
   },
   "KORUUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "KSMUSDT": {
     "extreme": false,

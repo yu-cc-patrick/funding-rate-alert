@@ -1807,6 +1807,10 @@
     "extreme": false,
     "high": false
   },
+  "MVLLUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "MYROUSDT": {
     "extreme": false,
     "high": false
@@ -2000,6 +2004,10 @@
     "high": false
   },
   "ORDIUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "OUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2471,6 +2479,10 @@
     "extreme": false,
     "high": false
   },
+  "SQQQUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "SSVUSDT": {
     "extreme": false,
     "high": false
@@ -2636,6 +2648,10 @@
     "high": false
   },
   "TOWNSUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "TQQQUSDT": {
     "extreme": false,
     "high": false
   },

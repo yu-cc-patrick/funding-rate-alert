@@ -1548,8 +1548,8 @@
     "high": false
   },
   "LABUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "LAUSDT": {
     "extreme": false,

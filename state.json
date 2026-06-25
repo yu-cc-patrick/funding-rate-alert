@@ -1125,7 +1125,7 @@
   },
   "FOGOUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "FOLKSUSDT": {
     "extreme": false,

@@ -467,10 +467,6 @@
     "extreme": false,
     "high": false
   },
-  "BDXNUSDT": {
-    "extreme": false,
-    "high": false
-  },
   "BEAMXUSDT": {
     "extreme": false,
     "high": false
@@ -2564,10 +2560,6 @@
     "high": false
   },
   "SWELLUSDT": {
-    "extreme": false,
-    "high": false
-  },
-  "SXPUSDT": {
     "extreme": false,
     "high": false
   },

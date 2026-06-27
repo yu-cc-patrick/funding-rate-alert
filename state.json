@@ -141,7 +141,7 @@
   },
   "AGLDUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "AGTUSDT": {
     "extreme": false,

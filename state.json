@@ -1012,7 +1012,7 @@
     "high": false
   },
   "ESPORTSUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ESPUSDT": {

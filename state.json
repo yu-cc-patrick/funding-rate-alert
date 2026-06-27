@@ -141,7 +141,7 @@
   },
   "AGLDUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "AGTUSDT": {
     "extreme": false,
@@ -636,6 +636,10 @@
     "high": false
   },
   "CAKEUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "CAPUSDT": {
     "extreme": false,
     "high": false
   },

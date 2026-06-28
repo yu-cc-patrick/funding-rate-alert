@@ -2113,7 +2113,7 @@
   },
   "POWRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "PRLUSDT": {
     "extreme": false,
@@ -2312,7 +2312,7 @@
     "high": false
   },
   "SAMSUNGUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "SANDUSDT": {

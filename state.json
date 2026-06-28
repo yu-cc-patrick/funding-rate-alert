@@ -289,7 +289,7 @@
   },
   "ARKUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ARMUSDT": {
     "extreme": false,

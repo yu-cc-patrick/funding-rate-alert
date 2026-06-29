@@ -2113,7 +2113,7 @@
   },
   "POWRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "PRLUSDT": {
     "extreme": false,

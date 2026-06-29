@@ -896,7 +896,7 @@
     "high": false
   },
   "DISUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "DKNGUSDT": {

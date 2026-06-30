@@ -1197,7 +1197,7 @@
   },
   "GLMUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "GLWUSDT": {
     "extreme": false,

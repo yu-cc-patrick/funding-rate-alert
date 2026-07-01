@@ -1856,7 +1856,7 @@
     "high": false
   },
   "NFPUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": true
   },
   "NIGHTUSDT": {
@@ -2593,7 +2593,7 @@
   },
   "TAIKOUSDT": {
     "extreme": true,
-    "high": false
+    "high": true
   },
   "TAKEUSDT": {
     "extreme": false,

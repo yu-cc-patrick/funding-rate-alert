@@ -1197,7 +1197,7 @@
   },
   "GLMUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "GLWUSDT": {
     "extreme": false,
@@ -1405,7 +1405,7 @@
   },
   "INUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "INXUSDT": {
     "extreme": false,
@@ -1857,7 +1857,7 @@
   },
   "NFPUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "NIGHTUSDT": {
     "extreme": false,

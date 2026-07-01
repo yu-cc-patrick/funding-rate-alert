@@ -1404,7 +1404,7 @@
     "high": false
   },
   "INUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "INXUSDT": {
@@ -2593,7 +2593,7 @@
   },
   "TAIKOUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "TAKEUSDT": {
     "extreme": false,

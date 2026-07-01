@@ -2593,7 +2593,7 @@
   },
   "TAIKOUSDT": {
     "extreme": true,
-    "high": false
+    "high": true
   },
   "TAKEUSDT": {
     "extreme": false,
@@ -2625,7 +2625,7 @@
   },
   "TLMUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "TNSRUSDT": {
     "extreme": false,

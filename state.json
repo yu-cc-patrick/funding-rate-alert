@@ -2625,7 +2625,7 @@
   },
   "TLMUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "TNSRUSDT": {
     "extreme": false,

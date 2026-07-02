@@ -565,7 +565,7 @@
   },
   "BREVUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BRKBUSDT": {
     "extreme": false,

@@ -1857,7 +1857,7 @@
   },
   "NFPUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "NIGHTUSDT": {
     "extreme": false,

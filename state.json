@@ -565,7 +565,7 @@
   },
   "BREVUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BRKBUSDT": {
     "extreme": false,
@@ -584,6 +584,10 @@
     "high": false
   },
   "BSBUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "BSPUSDT": {
     "extreme": false,
     "high": false
   },
@@ -648,6 +652,10 @@
     "high": false
   },
   "CATIUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "CATUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1099,6 +1107,10 @@
     "extreme": false,
     "high": false
   },
+  "FLEXUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "FLMUSDT": {
     "extreme": false,
     "high": false
@@ -1227,6 +1239,10 @@
     "extreme": false,
     "high": false
   },
+  "GRAMUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "GRASSUSDT": {
     "extreme": false,
     "high": false
@@ -1244,8 +1260,8 @@
     "high": false
   },
   "GUAUSDT": {
-    "extreme": false,
-    "high": false
+    "extreme": true,
+    "high": true
   },
   "GUNUSDT": {
     "extreme": false,
@@ -1544,6 +1560,10 @@
     "high": false
   },
   "KSMUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "KSTRUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1856,7 +1876,7 @@
     "high": false
   },
   "NFPUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "NIGHTUSDT": {
@@ -2527,6 +2547,10 @@
     "extreme": false,
     "high": false
   },
+  "STRCUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "STRKUSDT": {
     "extreme": false,
     "high": false
@@ -2608,6 +2632,10 @@
     "high": false
   },
   "TAUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "TERUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2703,6 +2731,10 @@
     "extreme": false,
     "high": false
   },
+  "TTWOUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "TURBOUSDT": {
     "extreme": false,
     "high": false
@@ -2720,6 +2752,10 @@
     "high": false
   },
   "TWTUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "TXNUSDT": {
     "extreme": false,
     "high": false
   },

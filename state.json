@@ -1260,8 +1260,8 @@
     "high": false
   },
   "GUAUSDT": {
-    "extreme": true,
-    "high": true
+    "extreme": false,
+    "high": false
   },
   "GUNUSDT": {
     "extreme": false,
@@ -2617,7 +2617,7 @@
   },
   "TAIKOUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "TAKEUSDT": {
     "extreme": false,

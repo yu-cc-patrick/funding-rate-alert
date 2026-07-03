@@ -863,6 +863,10 @@
     "extreme": false,
     "high": false
   },
+  "DATAIPUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "DEEPUSDT": {
     "extreme": false,
     "high": false

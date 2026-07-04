@@ -1761,7 +1761,7 @@
   },
   "MIRAUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "MITOUSDT": {
     "extreme": false,
@@ -2620,7 +2620,7 @@
     "high": false
   },
   "TAIKOUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "TAKEUSDT": {

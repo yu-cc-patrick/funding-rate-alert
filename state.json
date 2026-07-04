@@ -1761,7 +1761,7 @@
   },
   "MIRAUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "MITOUSDT": {
     "extreme": false,

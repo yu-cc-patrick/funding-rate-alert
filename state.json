@@ -1276,7 +1276,7 @@
     "high": false
   },
   "GWEIUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "HAEDALUSDT": {
@@ -1761,7 +1761,7 @@
   },
   "MIRAUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "MITOUSDT": {
     "extreme": false,
@@ -2828,7 +2828,7 @@
     "high": false
   },
   "VANRYUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "VELODROMEUSDT": {

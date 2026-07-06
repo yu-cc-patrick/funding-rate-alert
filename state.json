@@ -521,7 +521,7 @@
   },
   "BLURUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BLZUSDT": {
     "extreme": false,

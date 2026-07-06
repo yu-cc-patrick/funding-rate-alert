@@ -1573,7 +1573,7 @@
   },
   "LABUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "LAUSDT": {
     "extreme": false,

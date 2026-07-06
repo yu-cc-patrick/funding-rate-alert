@@ -812,7 +812,7 @@
     "high": false
   },
   "CSCOUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "CTKUSDT": {
@@ -1484,7 +1484,7 @@
     "high": false
   },
   "JPMUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "JSTUSDT": {
@@ -1828,7 +1828,7 @@
     "high": false
   },
   "MUUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "MVLLUSDT": {

@@ -521,7 +521,7 @@
   },
   "BLURUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BLZUSDT": {
     "extreme": false,
@@ -1573,7 +1573,7 @@
   },
   "LABUSDT": {
     "extreme": true,
-    "high": false
+    "high": true
   },
   "LAUSDT": {
     "extreme": false,

@@ -1017,7 +1017,7 @@
   },
   "EPICUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "EPTUSDT": {
     "extreme": false,

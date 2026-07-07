@@ -1277,7 +1277,7 @@
   },
   "GWEIUSDT": {
     "extreme": true,
-    "high": false
+    "high": true
   },
   "HAEDALUSDT": {
     "extreme": false,
@@ -1573,7 +1573,7 @@
   },
   "LABUSDT": {
     "extreme": true,
-    "high": false
+    "high": true
   },
   "LAUSDT": {
     "extreme": false,

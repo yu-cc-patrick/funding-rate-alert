@@ -539,6 +539,10 @@
     "extreme": false,
     "high": false
   },
+  "BNCUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "BNTUSDT": {
     "extreme": false,
     "high": false
@@ -556,6 +560,10 @@
     "high": false
   },
   "BONDUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "BOTUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1179,6 +1187,10 @@
     "extreme": false,
     "high": false
   },
+  "FWDIUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "FXSUSDT": {
     "extreme": false,
     "high": false
@@ -1420,6 +1432,10 @@
     "high": false
   },
   "INTCUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "INTWUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2439,6 +2455,10 @@
     "extreme": false,
     "high": false
   },
+  "SNXXUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "SOLUSDT": {
     "extreme": false,
     "high": false
@@ -2481,7 +2501,7 @@
   },
   "SPELLUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "SPKUSDT": {
     "extreme": false,
@@ -2649,7 +2669,7 @@
   },
   "THEUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "TIAUSDT": {
     "extreme": false,
@@ -2828,7 +2848,7 @@
     "high": false
   },
   "VANRYUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "VELODROMEUSDT": {
@@ -2899,6 +2919,10 @@
     "extreme": false,
     "high": false
   },
+  "WENUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "WETUSDT": {
     "extreme": false,
     "high": false
@@ -2944,6 +2968,10 @@
     "high": false
   },
   "XAUUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "XBIUSDT": {
     "extreme": false,
     "high": false
   },

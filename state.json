@@ -1588,7 +1588,7 @@
     "high": false
   },
   "LABUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "LAUSDT": {

@@ -2669,7 +2669,7 @@
   },
   "THEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "TIAUSDT": {
     "extreme": false,

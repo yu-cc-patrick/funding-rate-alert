@@ -263,6 +263,10 @@
     "extreme": false,
     "high": false
   },
+  "APPUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "APRUSDT": {
     "extreme": false,
     "high": false
@@ -1024,7 +1028,7 @@
     "high": false
   },
   "EPICUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "EPTUSDT": {
@@ -1208,6 +1212,10 @@
     "high": false
   },
   "GENIUSUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "GEVUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1820,7 +1828,7 @@
     "high": false
   },
   "MRVLUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "MSFTUSDT": {
@@ -2036,7 +2044,7 @@
     "high": false
   },
   "ORCLUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ORDERUSDT": {
@@ -2413,7 +2421,7 @@
   },
   "SKLUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "SKRUSDT": {
     "extreme": false,
@@ -2444,6 +2452,10 @@
     "high": false
   },
   "SNDKUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "SNOWUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2884,6 +2896,10 @@
     "high": false
   },
   "VOXELUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "VRTUSDT": {
     "extreme": false,
     "high": false
   },

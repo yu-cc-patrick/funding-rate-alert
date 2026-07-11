@@ -2065,7 +2065,7 @@
   },
   "PARTIUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "PAXGUSDT": {
     "extreme": false,

@@ -2419,9 +2419,13 @@
     "extreme": false,
     "high": false
   },
+  "SKHYUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "SKLUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "SKRUSDT": {
     "extreme": false,

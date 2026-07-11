@@ -2448,7 +2448,7 @@
     "high": false
   },
   "SLXUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "SMCIUSDT": {

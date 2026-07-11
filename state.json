@@ -249,7 +249,7 @@
   },
   "ANKRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ANTHROPICUSDT": {
     "extreme": false,
@@ -1369,7 +1369,7 @@
   },
   "HOTUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "HPEUSDT": {
     "extreme": false,

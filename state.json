@@ -2633,7 +2633,7 @@
   },
   "SXTUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "SYNUSDT": {
     "extreme": false,

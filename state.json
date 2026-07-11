@@ -249,7 +249,7 @@
   },
   "ANKRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ANTHROPICUSDT": {
     "extreme": false,
@@ -1369,7 +1369,7 @@
   },
   "HOTUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "HPEUSDT": {
     "extreme": false,
@@ -2064,8 +2064,8 @@
     "high": false
   },
   "PARTIUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "PAXGUSDT": {
     "extreme": false,
@@ -2785,7 +2785,7 @@
   },
   "TUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "TUTUSDT": {
     "extreme": false,

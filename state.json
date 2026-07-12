@@ -1969,7 +1969,7 @@
   },
   "OGNUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "OGUSDT": {
     "extreme": false,

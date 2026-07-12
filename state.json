@@ -1369,7 +1369,7 @@
   },
   "HOTUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "HPEUSDT": {
     "extreme": false,

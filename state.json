@@ -53,7 +53,7 @@
   },
   "1000XECUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "1000XUSDT": {
     "extreme": false,
@@ -933,7 +933,7 @@
   },
   "DODOXUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "DOGEUSDT": {
     "extreme": false,
@@ -1369,7 +1369,7 @@
   },
   "HOTUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "HPEUSDT": {
     "extreme": false,

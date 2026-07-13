@@ -52,8 +52,8 @@
     "high": false
   },
   "1000XECUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "1000XUSDT": {
     "extreme": false,

@@ -2588,7 +2588,7 @@
     "high": false
   },
   "STRCUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "STRKUSDT": {

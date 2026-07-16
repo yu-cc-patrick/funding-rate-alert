@@ -1855,6 +1855,10 @@
     "extreme": false,
     "high": false
   },
+  "MUUUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "MVLLUSDT": {
     "extreme": false,
     "high": false
@@ -2507,6 +2511,10 @@
     "extreme": false,
     "high": false
   },
+  "SOXSUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "SPACEUSDT": {
     "extreme": false,
     "high": false
@@ -2796,6 +2804,10 @@
     "high": false
   },
   "TXNUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "TZAUSDT": {
     "extreme": false,
     "high": false
   },

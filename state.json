@@ -1347,6 +1347,14 @@
     "extreme": false,
     "high": false
   },
+  "HK0700USDT": {
+    "extreme": false,
+    "high": false
+  },
+  "HK1810USDT": {
+    "extreme": false,
+    "high": false
+  },
   "HMSTRUSDT": {
     "extreme": false,
     "high": false
@@ -1780,6 +1788,10 @@
     "high": false
   },
   "MINAUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "MINIMAXUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2683,6 +2695,10 @@
     "extreme": false,
     "high": false
   },
+  "TENCENTUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "TERUSDT": {
     "extreme": false,
     "high": false
@@ -3104,6 +3120,10 @@
     "high": false
   },
   "ZETAUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "ZHIPUUSDT": {
     "extreme": false,
     "high": false
   },

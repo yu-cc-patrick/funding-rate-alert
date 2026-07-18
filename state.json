@@ -1193,7 +1193,7 @@
   },
   "FWDIUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "FXSUSDT": {
     "extreme": false,
@@ -2537,7 +2537,7 @@
   },
   "SPELLUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "SPKUSDT": {
     "extreme": false,

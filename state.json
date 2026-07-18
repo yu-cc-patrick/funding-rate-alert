@@ -1365,7 +1365,7 @@
   },
   "HOMEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "HOODUSDT": {
     "extreme": false,

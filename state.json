@@ -1193,7 +1193,7 @@
   },
   "FWDIUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "FXSUSDT": {
     "extreme": false,

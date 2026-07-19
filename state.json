@@ -668,7 +668,7 @@
     "high": false
   },
   "CATUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "CBRSUSDT": {

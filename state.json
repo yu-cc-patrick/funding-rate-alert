@@ -1037,7 +1037,7 @@
   },
   "ERAUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ESPORTSUSDT": {
     "extreme": true,
@@ -2017,7 +2017,7 @@
   },
   "ONEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ONGUSDT": {
     "extreme": false,

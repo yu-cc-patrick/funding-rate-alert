@@ -933,7 +933,7 @@
   },
   "DODOXUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "DOGEUSDT": {
     "extreme": false,
@@ -1609,7 +1609,7 @@
   },
   "LAUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "LAYERUSDT": {
     "extreme": false,

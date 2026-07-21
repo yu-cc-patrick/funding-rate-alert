@@ -545,7 +545,7 @@
   },
   "BNCUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BNTUSDT": {
     "extreme": false,
@@ -569,7 +569,7 @@
   },
   "BOTUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BRETTUSDT": {
     "extreme": false,
@@ -581,7 +581,7 @@
   },
   "BRKBUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BROCCOLI714USDT": {
     "extreme": false,
@@ -1193,7 +1193,7 @@
   },
   "FWDIUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "FXSUSDT": {
     "extreme": false,
@@ -2237,7 +2237,7 @@
   },
   "QNTXUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "QQQUSDT": {
     "extreme": false,

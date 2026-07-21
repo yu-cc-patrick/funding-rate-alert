@@ -904,8 +904,8 @@
     "high": false
   },
   "DEXEUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "DFUSDT": {
     "extreme": false,
@@ -1037,7 +1037,7 @@
   },
   "ERAUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ESPORTSUSDT": {
     "extreme": true,
@@ -1609,7 +1609,7 @@
   },
   "LAUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "LAYERUSDT": {
     "extreme": false,
@@ -2079,6 +2079,10 @@
     "extreme": false,
     "high": false
   },
+  "PANWUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "PARTIUSDT": {
     "extreme": false,
     "high": false
@@ -2092,6 +2096,10 @@
     "high": false
   },
   "PENDLEUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "PENGUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2415,6 +2423,10 @@
     "extreme": false,
     "high": false
   },
+  "SHAZUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "SHELLUSDT": {
     "extreme": false,
     "high": false
@@ -2488,6 +2500,10 @@
     "high": false
   },
   "SNXXUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "SOFIUSDT": {
     "extreme": false,
     "high": false
   },

@@ -905,7 +905,7 @@
   },
   "DEXEUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "DFUSDT": {
     "extreme": false,
@@ -1609,7 +1609,7 @@
   },
   "LAUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "LAYERUSDT": {
     "extreme": false,

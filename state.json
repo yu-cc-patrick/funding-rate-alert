@@ -896,7 +896,7 @@
     "high": false
   },
   "DELLUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "DENTUSDT": {

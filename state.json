@@ -905,7 +905,7 @@
   },
   "DEXEUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "DFUSDT": {
     "extreme": false,
@@ -933,7 +933,7 @@
   },
   "DODOXUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "DOGEUSDT": {
     "extreme": false,
@@ -1037,7 +1037,7 @@
   },
   "ERAUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ESPORTSUSDT": {
     "extreme": true,
@@ -2317,7 +2317,7 @@
   },
   "RIFUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "RIVERUSDT": {
     "extreme": false,

@@ -445,7 +445,7 @@
   },
   "BARDUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BASEDUSDT": {
     "extreme": false,
@@ -905,7 +905,7 @@
   },
   "DEXEUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "DFUSDT": {
     "extreme": false,

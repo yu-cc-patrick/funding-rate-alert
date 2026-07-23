@@ -668,7 +668,7 @@
     "high": false
   },
   "CATUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "CBRSUSDT": {
@@ -905,7 +905,7 @@
   },
   "DEXEUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "DFUSDT": {
     "extreme": false,
@@ -2073,7 +2073,7 @@
   },
   "OUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "OXTUSDT": {
     "extreme": false,

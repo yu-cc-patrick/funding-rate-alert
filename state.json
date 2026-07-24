@@ -177,7 +177,7 @@
   },
   "AKEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "AKTUSDT": {
     "extreme": false,

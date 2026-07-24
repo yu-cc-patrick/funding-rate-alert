@@ -97,7 +97,7 @@
   },
   "ACEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ACHUSDT": {
     "extreme": false,

@@ -2061,7 +2061,7 @@
   },
   "ORDERUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ORDIUSDT": {
     "extreme": false,

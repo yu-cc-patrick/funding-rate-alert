@@ -123,10 +123,6 @@
     "extreme": false,
     "high": false
   },
-  "AERGOUSDT": {
-    "extreme": false,
-    "high": false
-  },
   "AEROUSDT": {
     "extreme": false,
     "high": false
@@ -2320,7 +2316,7 @@
     "high": false
   },
   "RIFUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "RIVERUSDT": {

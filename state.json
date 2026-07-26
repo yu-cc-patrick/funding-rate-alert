@@ -1041,7 +1041,7 @@
   },
   "ESPUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ETCUSDT": {
     "extreme": false,
@@ -1061,7 +1061,7 @@
   },
   "EULUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "EVAAUSDT": {
     "extreme": false,

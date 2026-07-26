@@ -1061,7 +1061,7 @@
   },
   "EULUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "EVAAUSDT": {
     "extreme": false,

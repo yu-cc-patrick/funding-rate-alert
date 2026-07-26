@@ -901,7 +901,7 @@
   },
   "DEXEUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "DFUSDT": {
     "extreme": false,
@@ -2909,7 +2909,7 @@
   },
   "VANRYUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "VELODROMEUSDT": {
     "extreme": false,

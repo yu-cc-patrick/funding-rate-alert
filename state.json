@@ -511,6 +511,10 @@
     "extreme": false,
     "high": false
   },
+  "BITOUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "BLESSUSDT": {
     "extreme": false,
     "high": false
@@ -2711,6 +2715,10 @@
     "extreme": false,
     "high": false
   },
+  "TBTUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "TENCENTUSDT": {
     "extreme": false,
     "high": false
@@ -2732,6 +2740,10 @@
     "high": false
   },
   "TLMUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "TMFUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2909,7 +2921,7 @@
   },
   "VANRYUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "VELODROMEUSDT": {
     "extreme": false,

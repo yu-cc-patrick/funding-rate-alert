@@ -789,7 +789,7 @@
   },
   "COTIUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "COWUSDT": {
     "extreme": false,

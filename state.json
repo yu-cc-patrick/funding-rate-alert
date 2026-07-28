@@ -788,8 +788,8 @@
     "high": false
   },
   "COTIUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "COWUSDT": {
     "extreme": false,

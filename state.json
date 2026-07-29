@@ -1040,7 +1040,7 @@
     "high": false
   },
   "ESPORTSUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ESPUSDT": {
@@ -1613,7 +1613,7 @@
   },
   "LAUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "LAYERUSDT": {
     "extreme": false,

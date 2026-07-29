@@ -1279,6 +1279,10 @@
     "extreme": false,
     "high": false
   },
+  "GSUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "GTCUSDT": {
     "extreme": false,
     "high": false
@@ -2227,6 +2231,10 @@
     "extreme": false,
     "high": false
   },
+  "PYPLUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "PYTHUSDT": {
     "extreme": false,
     "high": false
@@ -2484,6 +2492,10 @@
     "high": false
   },
   "SMCIUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "SMHUSDT": {
     "extreme": false,
     "high": false
   },

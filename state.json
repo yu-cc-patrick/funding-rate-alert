@@ -1613,7 +1613,7 @@
   },
   "LAUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "LAYERUSDT": {
     "extreme": false,

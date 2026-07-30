@@ -432,8 +432,8 @@
     "high": false
   },
   "BANKUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "BANUSDT": {
     "extreme": false,

@@ -3161,7 +3161,7 @@
   },
   "ZHIPUUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ZILUSDT": {
     "extreme": false,

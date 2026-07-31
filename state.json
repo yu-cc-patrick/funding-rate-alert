@@ -2636,7 +2636,7 @@
     "high": false
   },
   "STRCUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "STRKUSDT": {
@@ -2856,7 +2856,7 @@
     "high": false
   },
   "TXNUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "TZAUSDT": {

@@ -12,6 +12,8 @@
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.request
 
 # 默认直连币安; 若设置了 BINANCE_BASE(指向非美区 relay)则走 relay
@@ -46,12 +48,31 @@ TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 
 def http_get_json(url):
+    """GET + JSON 解析，带重试，挡住 Render 冷启动和网络抖动。
+
+    对 451/403/418 不重试——这些是 geo-block 或 bot 检测，重试无意义。
+    """
     headers = {"User-Agent": "funding-alert/1.0"}
     if RELAY_TOKEN:
         headers["X-Relay-Token"] = RELAY_TOKEN
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    last_err = None
+    for attempt in range(1, 4):  # 最多 3 次
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            last_err = e
+            print(f"[WARN] HTTP {e.code} (attempt {attempt}/3): {url}",
+                  file=sys.stderr)
+            if e.code in (451, 403, 418):
+                break  # geo-block / forbidden / bot-detection，重试没用
+        except Exception as e:
+            last_err = e
+            print(f"[WARN] {e} (attempt {attempt}/3)", file=sys.stderr)
+        if attempt < 3:
+            time.sleep(2.0 * attempt)  # 2s → 4s 递增退避
+    raise RuntimeError(f"GET failed after 3 tries: {url}\n  {last_err}")
 
 
 def fetch_market():

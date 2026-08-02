@@ -1397,7 +1397,7 @@
   },
   "HYPERUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "HYPEUSDT": {
     "extreme": false,

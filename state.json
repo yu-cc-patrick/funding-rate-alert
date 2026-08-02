@@ -636,7 +636,7 @@
     "high": false
   },
   "BXUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "BZUSDT": {

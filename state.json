@@ -3001,7 +3001,7 @@
   },
   "WAXPUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "WCTUSDT": {
     "extreme": false,

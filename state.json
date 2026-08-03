@@ -636,7 +636,7 @@
     "high": false
   },
   "BXUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "BZUSDT": {
@@ -1216,6 +1216,10 @@
     "high": false
   },
   "GHSTUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "GIGADEVUSDT": {
     "extreme": false,
     "high": false
   },

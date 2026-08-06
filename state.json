@@ -1603,6 +1603,10 @@
     "extreme": false,
     "high": false
   },
+  "KOUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "KSMUSDT": {
     "extreme": false,
     "high": false
@@ -2288,6 +2292,10 @@
     "high": false
   },
   "RAYUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "RDDTUSDT": {
     "extreme": false,
     "high": false
   },

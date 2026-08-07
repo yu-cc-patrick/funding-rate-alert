@@ -96,8 +96,8 @@
     "high": false
   },
   "ACEUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "ACHUSDT": {
     "extreme": false,
@@ -1332,7 +1332,7 @@
     "high": false
   },
   "HFTUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "HIFIUSDT": {

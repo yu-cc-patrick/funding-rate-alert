@@ -900,7 +900,7 @@
     "high": false
   },
   "DEXEUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "DFUSDT": {

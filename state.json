@@ -1481,7 +1481,7 @@
   },
   "IOTXUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "IOUSDT": {
     "extreme": false,

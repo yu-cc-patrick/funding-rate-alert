@@ -88,7 +88,7 @@
     "high": false
   },
   "AAPLUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "AAVEUSDT": {
@@ -1412,7 +1412,7 @@
     "high": false
   },
   "IBMUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ICNTUSDT": {

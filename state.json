@@ -823,6 +823,14 @@
     "extreme": false,
     "high": false
   },
+  "CSOPSAMSUNG2LUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "CSOPSKHYNIX2LUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "CTKUSDT": {
     "extreme": false,
     "high": false
@@ -1615,6 +1623,10 @@
     "extreme": false,
     "high": false
   },
+  "KUAISHOUUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "LABUSDT": {
     "extreme": false,
     "high": false
@@ -1756,6 +1768,10 @@
     "high": false
   },
   "MEGAUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "MEITUANUSDT": {
     "extreme": false,
     "high": false
   },

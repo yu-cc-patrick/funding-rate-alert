@@ -1553,7 +1553,7 @@
   },
   "KAITOUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "KASUSDT": {
     "extreme": false,
@@ -3008,7 +3008,7 @@
     "high": false
   },
   "VUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "VVVUSDT": {

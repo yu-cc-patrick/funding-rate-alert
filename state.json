@@ -937,7 +937,7 @@
   },
   "DODOXUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "DOGEUSDT": {
     "extreme": false,

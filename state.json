@@ -3008,7 +3008,7 @@
     "high": false
   },
   "VUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "VVVUSDT": {

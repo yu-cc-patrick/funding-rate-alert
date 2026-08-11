@@ -2228,8 +2228,8 @@
     "high": false
   },
   "PROMUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "PROVEUSDT": {
     "extreme": false,

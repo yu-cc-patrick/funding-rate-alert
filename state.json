@@ -1553,7 +1553,7 @@
   },
   "KAITOUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "KASUSDT": {
     "extreme": false,

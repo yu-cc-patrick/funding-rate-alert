@@ -1327,6 +1327,10 @@
     "extreme": false,
     "high": false
   },
+  "HANMIUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "HBARUSDT": {
     "extreme": false,
     "high": false
@@ -1607,6 +1611,10 @@
     "extreme": false,
     "high": false
   },
+  "KODEX200USDT": {
+    "extreme": false,
+    "high": false
+  },
   "KOMAUSDT": {
     "extreme": false,
     "high": false
@@ -1648,6 +1656,10 @@
     "high": false
   },
   "LEVERUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "LGELECTRONICSUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1920,6 +1932,10 @@
     "high": false
   },
   "NATGASUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "NAVERUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2424,6 +2440,10 @@
     "high": false
   },
   "SAHARAUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "SAMSUNGEMUSDT": {
     "extreme": false,
     "high": false
   },
@@ -3196,6 +3216,10 @@
     "high": false
   },
   "ZHIPUUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "ZHONGJIUSDT": {
     "extreme": false,
     "high": false
   },

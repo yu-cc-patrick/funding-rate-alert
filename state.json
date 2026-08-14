@@ -1692,7 +1692,7 @@
     "high": false
   },
   "LLYUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "LOKAUSDT": {
@@ -2692,7 +2692,7 @@
     "high": false
   },
   "STRCUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "STRKUSDT": {

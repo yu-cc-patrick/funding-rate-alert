@@ -52,27 +52,29 @@ def http_get_json(url):
 
     对 451/403/418 不重试——这些是 geo-block 或 bot 检测，重试无意义。
     """
+    MAX_ATTEMPTS = 5
+    TIMEOUT = 90  # 必须大于 relay 转发币安的 60s 超时, 否则 relay 还没回就被掐断
     headers = {"User-Agent": "funding-alert/1.0"}
     if RELAY_TOKEN:
         headers["X-Relay-Token"] = RELAY_TOKEN
     last_err = None
-    for attempt in range(1, 4):  # 最多 3 次
+    for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             last_err = e
-            print(f"[WARN] HTTP {e.code} (attempt {attempt}/3): {url}",
+            print(f"[WARN] HTTP {e.code} (attempt {attempt}/{MAX_ATTEMPTS}): {url}",
                   file=sys.stderr)
             if e.code in (451, 403, 418):
                 break  # geo-block / forbidden / bot-detection，重试没用
         except Exception as e:
             last_err = e
-            print(f"[WARN] {e} (attempt {attempt}/3)", file=sys.stderr)
-        if attempt < 3:
-            time.sleep(2.0 * attempt)  # 2s → 4s 递增退避
-    raise RuntimeError(f"GET failed after 3 tries: {url}\n  {last_err}")
+            print(f"[WARN] {e} (attempt {attempt}/{MAX_ATTEMPTS})", file=sys.stderr)
+        if attempt < MAX_ATTEMPTS:
+            time.sleep(2 ** (attempt - 1) * 2)  # 2s → 4s → 8s → 16s 指数退避
+    raise RuntimeError(f"GET failed after {MAX_ATTEMPTS} tries: {url}\n  {last_err}")
 
 
 def fetch_market():

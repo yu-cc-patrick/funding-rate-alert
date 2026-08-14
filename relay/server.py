@@ -8,6 +8,7 @@
 """
 import json
 import os
+import time
 import urllib.request
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
@@ -38,13 +39,32 @@ class Handler(BaseHTTPRequestHandler):
         else:
             self._send(404, b'{"error":"only /fapi/ and /bapi/ are allowed"}')
             return
-        try:
-            req = urllib.request.Request(upstream + self.path, headers=COMMON_HEADERS)
-            with urllib.request.urlopen(req, timeout=60) as r:
-                data = r.read()
-            self._send(200, data)
-        except Exception as exc:
-            self._send(502, json.dumps({"error": str(exc)}).encode())
+        data, err = self._fetch_upstream(upstream + self.path)
+        if data is None:
+            self._send(502, json.dumps({"error": err}).encode())
+            return
+        self._send(200, data)
+
+    def _fetch_upstream(self, url):
+        """转发到币安, 带重试: 币安对云 IP 偶发 429/限流, 退避几次通常能过。
+
+        返回 (bytes, None) 成功; (None, 错误字符串) 失败。
+        """
+        last_err = "upstream request failed"
+        for attempt in range(1, 4):
+            try:
+                req = urllib.request.Request(url, headers=COMMON_HEADERS)
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    return r.read(), None
+            except urllib.error.HTTPError as exc:
+                last_err = str(exc)
+                if exc.code in (451, 403):  # geo-block/forbidden, 重试无用
+                    break
+            except Exception as exc:
+                last_err = str(exc)
+            if attempt < 3:
+                time.sleep(2.0 * attempt)
+        return None, last_err
 
     def do_POST(self):
         # PushPlus 中转: GHA 美区 runner 可能连不上 pushplus.plus,

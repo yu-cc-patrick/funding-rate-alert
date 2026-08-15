@@ -789,7 +789,7 @@
   },
   "COWUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "CRCLUSDT": {
     "extreme": false,

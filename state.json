@@ -97,7 +97,7 @@
   },
   "ACEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ACHUSDT": {
     "extreme": false,
@@ -784,12 +784,12 @@
     "high": false
   },
   "COTIUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "COWUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "CRCLUSDT": {
     "extreme": false,
@@ -859,6 +859,10 @@
     "extreme": false,
     "high": false
   },
+  "CXMTUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "CYBERUSDT": {
     "extreme": false,
     "high": false
@@ -924,6 +928,10 @@
     "high": false
   },
   "DISUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "DJTUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1219,6 +1227,10 @@
     "extreme": false,
     "high": false
   },
+  "GDXUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "GENIUSUSDT": {
     "extreme": false,
     "high": false
@@ -1487,6 +1499,10 @@
     "extreme": false,
     "high": false
   },
+  "IONQUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "IOSTUSDT": {
     "extreme": false,
     "high": false
@@ -1739,6 +1755,10 @@
     "extreme": false,
     "high": false
   },
+  "LYTEUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "MAGICUSDT": {
     "extreme": false,
     "high": false
@@ -1756,6 +1776,10 @@
     "high": false
   },
   "MANTRAUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "MARAUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1883,6 +1907,14 @@
     "extreme": false,
     "high": false
   },
+  "MRKUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "MRNAUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "MRVLUSDT": {
     "extreme": false,
     "high": false
@@ -1956,6 +1988,10 @@
     "high": false
   },
   "NEOUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "NETUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2068,7 +2104,7 @@
     "high": false
   },
   "ONGUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "ONTUSDT": {
@@ -2140,6 +2176,10 @@
     "high": false
   },
   "PAYPUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "PDDUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2312,6 +2352,10 @@
     "high": false
   },
   "RADUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "RAMUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2495,6 +2539,10 @@
     "extreme": false,
     "high": false
   },
+  "SHOPUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "SIGNUSDT": {
     "extreme": false,
     "high": false
@@ -2504,6 +2552,10 @@
     "high": false
   },
   "SKATEUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "SKDDUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2520,6 +2572,10 @@
     "high": false
   },
   "SKRUSDT": {
+    "extreme": true,
+    "high": false
+  },
+  "SKUUUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2783,6 +2839,10 @@
     "extreme": false,
     "high": false
   },
+  "TEMUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "TENCENTUSDT": {
     "extreme": false,
     "high": false
@@ -2939,6 +2999,10 @@
     "extreme": false,
     "high": false
   },
+  "UNITREEUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "UNIUSDT": {
     "extreme": false,
     "high": false
@@ -3024,6 +3088,10 @@
     "high": false
   },
   "VRTUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "VSTUSDT": {
     "extreme": false,
     "high": false
   },
@@ -3228,7 +3296,7 @@
     "high": false
   },
   "ZKCUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "ZKJUSDT": {
@@ -3268,6 +3336,10 @@
     "high": false
   },
   "我踏马来了USDT": {
+    "extreme": false,
+    "high": false
+  },
+  "牛来USDT": {
     "extreme": false,
     "high": false
   },

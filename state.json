@@ -1356,7 +1356,7 @@
     "high": false
   },
   "HDUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "HEIUSDT": {
@@ -2348,7 +2348,7 @@
     "high": false
   },
   "QCOMUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "QNTUSDT": {

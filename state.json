@@ -3328,7 +3328,7 @@
     "high": false
   },
   "ZKCUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ZKJUSDT": {

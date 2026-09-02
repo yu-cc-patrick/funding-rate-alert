@@ -887,6 +887,10 @@
     "extreme": false,
     "high": false
   },
+  "DDOGUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "DEEPUSDT": {
     "extreme": false,
     "high": false
@@ -1312,6 +1316,10 @@
     "high": false
   },
   "GTCUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "GTLBUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1811,6 +1819,10 @@
     "extreme": false,
     "high": false
   },
+  "MDBUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "MDTUSDT": {
     "extreme": false,
     "high": false
@@ -2056,6 +2068,10 @@
     "high": false
   },
   "NVDAUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "NVDLUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2847,6 +2863,10 @@
     "extreme": false,
     "high": false
   },
+  "TEAMUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "TEMUSDT": {
     "extreme": false,
     "high": false
@@ -2947,6 +2967,10 @@
     "extreme": false,
     "high": false
   },
+  "TSLLUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "TSMUSDT": {
     "extreme": false,
     "high": false
@@ -2969,7 +2993,7 @@
   },
   "TUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "TUTUSDT": {
     "extreme": false,
@@ -3336,6 +3360,10 @@
     "high": false
   },
   "ZRXUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "ZSUSDT": {
     "extreme": false,
     "high": false
   },

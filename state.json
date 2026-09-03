@@ -245,7 +245,7 @@
   },
   "ANKRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ANTHROPICUSDT": {
     "extreme": false,
@@ -1673,7 +1673,7 @@
   },
   "LAUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "LAYERUSDT": {
     "extreme": false,

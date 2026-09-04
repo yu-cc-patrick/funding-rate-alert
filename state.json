@@ -245,7 +245,7 @@
   },
   "ANKRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ANTHROPICUSDT": {
     "extreme": false,
@@ -636,6 +636,10 @@
     "high": false
   },
   "BXUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "BYDUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1287,6 +1291,10 @@
     "extreme": false,
     "high": false
   },
+  "GPROUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "GPSUSDT": {
     "extreme": false,
     "high": false
@@ -1396,6 +1404,10 @@
     "high": false
   },
   "HK0700USDT": {
+    "extreme": false,
+    "high": false
+  },
+  "HK0992USDT": {
     "extreme": false,
     "high": false
   },

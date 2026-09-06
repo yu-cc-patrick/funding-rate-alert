@@ -2291,6 +2291,10 @@
     "extreme": false,
     "high": false
   },
+  "PONSUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "POPCATUSDT": {
     "extreme": false,
     "high": false
@@ -3004,7 +3008,7 @@
     "high": false
   },
   "TUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "TUTUSDT": {
@@ -3376,6 +3380,10 @@
     "high": false
   },
   "ZSUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "哈基米USDT": {
     "extreme": false,
     "high": false
   },

@@ -2612,7 +2612,7 @@
     "high": false
   },
   "SKRUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "SKUUUSDT": {
@@ -3172,7 +3172,7 @@
     "high": false
   },
   "WDCUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "WENUSDT": {

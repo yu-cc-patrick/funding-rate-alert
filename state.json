@@ -545,7 +545,7 @@
   },
   "BNCUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BNTUSDT": {
     "extreme": false,
@@ -2696,8 +2696,8 @@
     "high": false
   },
   "SOPHUSDT": {
-    "extreme": false,
-    "high": false
+    "extreme": true,
+    "high": true
   },
   "SOXLUSDT": {
     "extreme": false,

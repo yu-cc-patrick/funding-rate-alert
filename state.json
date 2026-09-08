@@ -3172,7 +3172,7 @@
     "high": false
   },
   "WDCUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "WENUSDT": {

@@ -2697,7 +2697,7 @@
   },
   "SOPHUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "SOXLUSDT": {
     "extreme": false,

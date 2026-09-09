@@ -1529,7 +1529,7 @@
   },
   "IOSTUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "IOTAUSDT": {
     "extreme": false,
@@ -2080,7 +2080,7 @@
     "high": false
   },
   "NVDAUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "NVDLUSDT": {

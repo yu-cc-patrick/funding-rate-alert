@@ -3145,7 +3145,7 @@
   },
   "VTHOUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "VUSDT": {
     "extreme": false,

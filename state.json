@@ -1961,7 +1961,7 @@
   },
   "MTLUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "MUBARAKUSDT": {
     "extreme": false,

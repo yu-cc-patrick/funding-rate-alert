@@ -2317,7 +2317,7 @@
   },
   "POWRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "PRLUSDT": {
     "extreme": false,

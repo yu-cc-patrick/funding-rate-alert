@@ -1761,7 +1761,7 @@
   },
   "LSKUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "LTCUSDT": {
     "extreme": false,
@@ -1960,8 +1960,8 @@
     "high": false
   },
   "MTLUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "MUBARAKUSDT": {
     "extreme": false,
@@ -2317,7 +2317,7 @@
   },
   "POWRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "PRLUSDT": {
     "extreme": false,
@@ -2761,7 +2761,7 @@
   },
   "STEEMUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "STGUSDT": {
     "extreme": false,

@@ -289,7 +289,7 @@
   },
   "ARKUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ARMUSDT": {
     "extreme": false,
@@ -857,7 +857,7 @@
   },
   "CVCUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "CVXUSDT": {
     "extreme": false,
@@ -1397,7 +1397,7 @@
   },
   "HIVEUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "HK0625USDT": {
     "extreme": false,
@@ -1760,8 +1760,8 @@
     "high": false
   },
   "LSKUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "LTCUSDT": {
     "extreme": false,
@@ -2317,7 +2317,7 @@
   },
   "POWRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "PRLUSDT": {
     "extreme": false,
@@ -2761,7 +2761,7 @@
   },
   "STEEMUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "STGUSDT": {
     "extreme": false,

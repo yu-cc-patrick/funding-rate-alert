@@ -289,7 +289,7 @@
   },
   "ARKUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ARMUSDT": {
     "extreme": false,
@@ -857,7 +857,7 @@
   },
   "CVCUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "CVXUSDT": {
     "extreme": false,
@@ -1397,7 +1397,7 @@
   },
   "HIVEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "HK0625USDT": {
     "extreme": false,
@@ -2761,7 +2761,7 @@
   },
   "STEEMUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "STGUSDT": {
     "extreme": false,

@@ -288,8 +288,8 @@
     "high": false
   },
   "ARKUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "ARMUSDT": {
     "extreme": false,
@@ -857,7 +857,7 @@
   },
   "CVCUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "CVXUSDT": {
     "extreme": false,
@@ -2317,7 +2317,7 @@
   },
   "POWRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "PRLUSDT": {
     "extreme": false,

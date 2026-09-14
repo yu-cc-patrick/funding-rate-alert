@@ -289,7 +289,7 @@
   },
   "ARKUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ARMUSDT": {
     "extreme": false,
@@ -2761,7 +2761,7 @@
   },
   "STEEMUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "STGUSDT": {
     "extreme": false,
@@ -3136,7 +3136,7 @@
     "high": false
   },
   "VRTUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "VSTUSDT": {

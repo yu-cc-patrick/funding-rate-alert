@@ -857,7 +857,7 @@
   },
   "CVCUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "CVXUSDT": {
     "extreme": false,
@@ -1761,7 +1761,7 @@
   },
   "LSKUSDT": {
     "extreme": true,
-    "high": false
+    "high": true
   },
   "LTCUSDT": {
     "extreme": false,
@@ -2761,7 +2761,7 @@
   },
   "STEEMUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "STGUSDT": {
     "extreme": false,
@@ -3008,7 +3008,7 @@
     "high": false
   },
   "TUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "TUTUSDT": {

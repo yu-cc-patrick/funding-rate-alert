@@ -2988,7 +2988,7 @@
     "high": false
   },
   "TSMUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "TSTUSDT": {

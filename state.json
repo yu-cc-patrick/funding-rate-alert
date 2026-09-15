@@ -2761,7 +2761,7 @@
   },
   "STEEMUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "STGUSDT": {
     "extreme": false,

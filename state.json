@@ -657,7 +657,7 @@
   },
   "CAPUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "CARVUSDT": {
     "extreme": false,
@@ -857,7 +857,7 @@
   },
   "CVCUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "CVXUSDT": {
     "extreme": false,
@@ -1761,7 +1761,7 @@
   },
   "LSKUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "LTCUSDT": {
     "extreme": false,
@@ -2140,7 +2140,7 @@
     "high": false
   },
   "ONGUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ONTUSDT": {

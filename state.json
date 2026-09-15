@@ -321,7 +321,7 @@
   },
   "ASTRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ASTSUSDT": {
     "extreme": false,
@@ -657,7 +657,7 @@
   },
   "CAPUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "CARVUSDT": {
     "extreme": false,
@@ -857,7 +857,7 @@
   },
   "CVCUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "CVXUSDT": {
     "extreme": false,
@@ -2761,7 +2761,7 @@
   },
   "STEEMUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "STGUSDT": {
     "extreme": false,

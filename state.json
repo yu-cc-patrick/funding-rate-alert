@@ -321,7 +321,7 @@
   },
   "ASTRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ASTSUSDT": {
     "extreme": false,
@@ -2988,7 +2988,7 @@
     "high": false
   },
   "TSMUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "TSTUSDT": {

@@ -357,7 +357,7 @@
   },
   "AVAUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "AVAXUSDT": {
     "extreme": false,

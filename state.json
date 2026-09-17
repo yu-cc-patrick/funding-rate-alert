@@ -804,7 +804,7 @@
     "high": false
   },
   "CRMUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "CROSSUSDT": {
@@ -1440,7 +1440,7 @@
     "high": false
   },
   "HPEUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "HUMAUSDT": {

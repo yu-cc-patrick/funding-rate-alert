@@ -357,7 +357,7 @@
   },
   "AVAUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "AVAXUSDT": {
     "extreme": false,
@@ -2137,7 +2137,7 @@
   },
   "ONEUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ONGUSDT": {
     "extreme": false,

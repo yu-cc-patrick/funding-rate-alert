@@ -2136,8 +2136,8 @@
     "high": false
   },
   "ONEUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "ONGUSDT": {
     "extreme": false,
@@ -2732,7 +2732,7 @@
     "high": false
   },
   "SPYUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "SQDUSDT": {

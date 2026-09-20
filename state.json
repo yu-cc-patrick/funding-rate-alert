@@ -3036,7 +3036,7 @@
     "high": false
   },
   "TUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "TUTUSDT": {

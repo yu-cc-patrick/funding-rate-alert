@@ -180,8 +180,8 @@
     "high": false
   },
   "AKEUSDT": {
-    "extreme": false,
-    "high": false
+    "extreme": true,
+    "high": true
   },
   "AKTUSDT": {
     "extreme": false,
@@ -1361,7 +1361,7 @@
   },
   "GUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "GWEIUSDT": {
     "extreme": false,
@@ -2165,7 +2165,7 @@
   },
   "ONGUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ONTUSDT": {
     "extreme": false,
@@ -3037,7 +3037,7 @@
   },
   "TUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "TUTUSDT": {
     "extreme": false,

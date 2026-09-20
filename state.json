@@ -181,7 +181,7 @@
   },
   "AKEUSDT": {
     "extreme": true,
-    "high": true
+    "high": false
   },
   "AKTUSDT": {
     "extreme": false,
@@ -701,7 +701,7 @@
   },
   "CELRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "CETUSUSDT": {
     "extreme": false,
@@ -1360,8 +1360,8 @@
     "high": false
   },
   "GUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "GWEIUSDT": {
     "extreme": false,
@@ -2165,7 +2165,7 @@
   },
   "ONGUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ONTUSDT": {
     "extreme": false,
@@ -3037,7 +3037,7 @@
   },
   "TUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "TUTUSDT": {
     "extreme": false,

@@ -701,7 +701,7 @@
   },
   "CELRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "CETUSUSDT": {
     "extreme": false,

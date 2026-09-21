@@ -180,7 +180,7 @@
     "high": false
   },
   "AKEUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "AKTUSDT": {

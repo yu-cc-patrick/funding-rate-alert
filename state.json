@@ -380,7 +380,7 @@
     "high": false
   },
   "AVGOUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "AVNTUSDT": {
@@ -1888,7 +1888,7 @@
     "high": false
   },
   "METAUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "METISUSDT": {
@@ -2404,7 +2404,7 @@
     "high": false
   },
   "QQQUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "QTUMUSDT": {
@@ -3172,7 +3172,7 @@
     "high": false
   },
   "VSTUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "VTHOUSDT": {
@@ -3260,7 +3260,7 @@
     "high": false
   },
   "XBIUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "XCNUSDT": {
@@ -3272,7 +3272,7 @@
     "high": false
   },
   "XLEUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "XLMUSDT": {

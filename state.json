@@ -1645,7 +1645,7 @@
   },
   "KERNELUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "KEYUSDT": {
     "extreme": false,

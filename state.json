@@ -1645,7 +1645,7 @@
   },
   "KERNELUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "KEYUSDT": {
     "extreme": false,
@@ -1780,7 +1780,7 @@
     "high": false
   },
   "LRCXUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "LSKUSDT": {
@@ -1948,6 +1948,10 @@
     "high": false
   },
   "MOODENGUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "MOONSHOTUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2160,7 +2164,7 @@
     "high": false
   },
   "ONEUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ONGUSDT": {

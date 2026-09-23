@@ -2897,7 +2897,7 @@
   },
   "TAKEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "TANSSIUSDT": {
     "extreme": false,

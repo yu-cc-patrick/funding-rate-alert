@@ -2165,7 +2165,7 @@
   },
   "ONEUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ONGUSDT": {
     "extreme": false,
@@ -2836,7 +2836,7 @@
     "high": false
   },
   "STXXUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "SUIUSDT": {

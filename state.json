@@ -1780,7 +1780,7 @@
     "high": false
   },
   "LRCXUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "LSKUSDT": {
@@ -2216,6 +2216,10 @@
     "high": false
   },
   "ORDIUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "OURAUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2893,7 +2897,7 @@
   },
   "TAKEUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "TANSSIUSDT": {
     "extreme": false,

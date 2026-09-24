@@ -1360,7 +1360,7 @@
     "high": false
   },
   "GUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "GWEIUSDT": {

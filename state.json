@@ -1784,7 +1784,7 @@
     "high": false
   },
   "LSKUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "LTCUSDT": {

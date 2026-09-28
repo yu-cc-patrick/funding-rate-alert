@@ -2580,7 +2580,7 @@
     "high": false
   },
   "SAMSUNGUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "SANDUSDT": {

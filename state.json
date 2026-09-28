@@ -875,6 +875,10 @@
     "extreme": false,
     "high": false
   },
+  "CVNAUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "CVXUSDT": {
     "extreme": false,
     "high": false
@@ -2139,6 +2143,10 @@
     "extreme": false,
     "high": false
   },
+  "OKLOUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "OLUSDT": {
     "extreme": false,
     "high": false
@@ -2536,6 +2544,10 @@
     "high": false
   },
   "RSRUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "RUMUSDT": {
     "extreme": false,
     "high": false
   },
@@ -3051,6 +3063,10 @@
     "extreme": false,
     "high": false
   },
+  "TWSTUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "TWTUSDT": {
     "extreme": false,
     "high": false
@@ -3292,6 +3308,10 @@
     "high": false
   },
   "XNYUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "XOMUSDT": {
     "extreme": false,
     "high": false
   },

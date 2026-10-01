@@ -308,7 +308,7 @@
     "high": false
   },
   "ARKUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "ARMUSDT": {
@@ -872,6 +872,10 @@
     "high": false
   },
   "CTSIUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "CTUSDT": {
     "extreme": false,
     "high": false
   },

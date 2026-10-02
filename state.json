@@ -2196,7 +2196,7 @@
     "high": false
   },
   "ONEUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ONGUSDT": {

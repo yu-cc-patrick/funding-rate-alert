@@ -1365,7 +1365,7 @@
   },
   "GTCUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "GTLBUSDT": {
     "extreme": false,

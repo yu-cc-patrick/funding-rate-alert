@@ -2609,7 +2609,7 @@
   },
   "SANDUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "SANTOSUSDT": {
     "extreme": false,

@@ -2545,7 +2545,7 @@
   },
   "RLCUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "RLSUSDT": {
     "extreme": false,

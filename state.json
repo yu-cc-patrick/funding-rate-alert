@@ -1624,7 +1624,7 @@
     "high": false
   },
   "JPMUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "JSTUSDT": {

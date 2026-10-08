@@ -183,6 +183,10 @@
     "extreme": false,
     "high": false
   },
+  "AKAMUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "AKEUSDT": {
     "extreme": false,
     "high": false
@@ -1875,6 +1879,10 @@
     "extreme": false,
     "high": false
   },
+  "MCDUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "MDBUSDT": {
     "extreme": false,
     "high": false
@@ -3155,6 +3163,10 @@
     "extreme": false,
     "high": false
   },
+  "USDEXUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "USELESSUSDT": {
     "extreme": false,
     "high": false
@@ -3216,6 +3228,10 @@
     "high": false
   },
   "VIRTUALUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "VKTXUSDT": {
     "extreme": false,
     "high": false
   },

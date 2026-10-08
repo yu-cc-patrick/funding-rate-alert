@@ -661,7 +661,7 @@
   },
   "BWETUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BXUSDT": {
     "extreme": false,
@@ -877,7 +877,7 @@
   },
   "CTSIUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "CTUSDT": {
     "extreme": false,

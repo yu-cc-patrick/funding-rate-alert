@@ -312,7 +312,7 @@
     "high": false
   },
   "ARKUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ARMUSDT": {
@@ -661,7 +661,7 @@
   },
   "BWETUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BXUSDT": {
     "extreme": false,
@@ -877,7 +877,7 @@
   },
   "CTSIUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "CTUSDT": {
     "extreme": false,
@@ -2008,7 +2008,7 @@
     "high": false
   },
   "MRVLUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "MSFTUSDT": {
@@ -2248,7 +2248,7 @@
     "high": false
   },
   "ORCLUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "ORDERUSDT": {

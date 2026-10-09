@@ -661,7 +661,7 @@
   },
   "BWETUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BXUSDT": {
     "extreme": false,
@@ -2008,7 +2008,7 @@
     "high": false
   },
   "MRVLUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "MSFTUSDT": {
@@ -2248,7 +2248,7 @@
     "high": false
   },
   "ORCLUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ORDERUSDT": {
@@ -2552,7 +2552,7 @@
     "high": false
   },
   "RLCUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "RLSUSDT": {

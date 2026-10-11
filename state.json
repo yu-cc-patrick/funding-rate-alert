@@ -661,7 +661,7 @@
   },
   "BWETUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BXUSDT": {
     "extreme": false,
@@ -1105,7 +1105,7 @@
   },
   "ERAUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ESPORTSUSDT": {
     "extreme": false,
@@ -1644,7 +1644,7 @@
     "high": false
   },
   "KAIAUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "KAITOUSDT": {

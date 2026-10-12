@@ -2019,6 +2019,10 @@
     "extreme": false,
     "high": false
   },
+  "MSTUUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "MTLUSDT": {
     "extreme": false,
     "high": false
@@ -2499,6 +2503,10 @@
     "extreme": false,
     "high": false
   },
+  "RDWUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "RECALLUSDT": {
     "extreme": false,
     "high": false
@@ -2577,7 +2585,7 @@
   },
   "RSRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "RUMUSDT": {
     "extreme": false,
@@ -2736,6 +2744,10 @@
     "high": false
   },
   "SNOWUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "SNPSUSDT": {
     "extreme": false,
     "high": false
   },
@@ -3416,6 +3428,10 @@
     "high": false
   },
   "ZBTUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "ZCSHUSDT": {
     "extreme": false,
     "high": false
   },

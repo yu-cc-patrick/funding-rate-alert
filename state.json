@@ -104,7 +104,7 @@
     "high": false
   },
   "ACNUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "ACTUSDT": {
@@ -869,7 +869,7 @@
   },
   "CTKUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "CTRUSDT": {
     "extreme": false,

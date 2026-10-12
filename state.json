@@ -869,7 +869,7 @@
   },
   "CTKUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "CTRUSDT": {
     "extreme": false,
@@ -1368,7 +1368,7 @@
     "high": false
   },
   "GTCUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "GTLBUSDT": {

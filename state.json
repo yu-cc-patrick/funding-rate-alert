@@ -104,8 +104,8 @@
     "high": false
   },
   "ACNUSDT": {
-    "extreme": true,
-    "high": false
+    "extreme": false,
+    "high": true
   },
   "ACTUSDT": {
     "extreme": false,

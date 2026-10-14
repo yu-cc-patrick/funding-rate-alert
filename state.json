@@ -105,7 +105,7 @@
   },
   "ACNUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ACTUSDT": {
     "extreme": false,
@@ -1368,7 +1368,7 @@
     "high": false
   },
   "GTCUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "GTLBUSDT": {
@@ -1644,7 +1644,7 @@
     "high": false
   },
   "KAIAUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "KAITOUSDT": {
@@ -1884,10 +1884,6 @@
     "high": false
   },
   "MDBUSDT": {
-    "extreme": false,
-    "high": false
-  },
-  "MDTUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2585,7 +2581,7 @@
   },
   "RSRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "RUMUSDT": {
     "extreme": false,

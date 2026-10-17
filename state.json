@@ -1104,8 +1104,8 @@
     "high": false
   },
   "ERAUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "ESPORTSUSDT": {
     "extreme": false,

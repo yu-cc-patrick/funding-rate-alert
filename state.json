@@ -1369,7 +1369,7 @@
   },
   "GTCUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "GTLBUSDT": {
     "extreme": false,
@@ -2621,7 +2621,7 @@
   },
   "SANDUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "SANTOSUSDT": {
     "extreme": false,

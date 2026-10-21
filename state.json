@@ -431,6 +431,10 @@
     "extreme": false,
     "high": false
   },
+  "BACUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "BADGERUSDT": {
     "extreme": false,
     "high": false
@@ -533,7 +537,7 @@
   },
   "BIRBUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BITOUSDT": {
     "extreme": false,
@@ -704,6 +708,10 @@
     "high": false
   },
   "CCUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "CEGUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1369,7 +1377,7 @@
   },
   "GTCUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "GTLBUSDT": {
     "extreme": false,
@@ -1511,6 +1519,10 @@
     "extreme": false,
     "high": false
   },
+  "IBKRUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "IBMUSDT": {
     "extreme": false,
     "high": false
@@ -1577,7 +1589,7 @@
   },
   "IOSTUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "IOTAUSDT": {
     "extreme": false,
@@ -1884,6 +1896,10 @@
     "high": false
   },
   "MDBUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "MDTUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2621,7 +2637,7 @@
   },
   "SANDUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "SANTOSUSDT": {
     "extreme": false,

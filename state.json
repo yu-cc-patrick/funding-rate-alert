@@ -1588,8 +1588,8 @@
     "high": false
   },
   "IOSTUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "IOTAUSDT": {
     "extreme": false,

@@ -653,7 +653,7 @@
   },
   "BTWUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BULLAUSDT": {
     "extreme": false,
@@ -2428,8 +2428,8 @@
     "high": false
   },
   "PTBUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "PUFFERUSDT": {
     "extreme": false,

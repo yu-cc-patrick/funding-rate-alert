@@ -2429,7 +2429,7 @@
   },
   "PTBUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "PUFFERUSDT": {
     "extreme": false,

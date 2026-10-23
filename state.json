@@ -537,7 +537,7 @@
   },
   "BIRBUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BITOUSDT": {
     "extreme": false,
@@ -1616,8 +1616,8 @@
     "high": false
   },
   "IRYSUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "IWMUSDT": {
     "extreme": false,

@@ -653,7 +653,7 @@
   },
   "BTWUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BULLAUSDT": {
     "extreme": false,
@@ -1020,7 +1020,7 @@
     "high": false
   },
   "DOODUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "DOSUSDT": {

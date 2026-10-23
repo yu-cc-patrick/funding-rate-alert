@@ -313,7 +313,7 @@
   },
   "ARKUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ARMUSDT": {
     "extreme": false,
@@ -653,7 +653,7 @@
   },
   "BTWUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BULLAUSDT": {
     "extreme": false,
@@ -1617,7 +1617,7 @@
   },
   "IRYSUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "IWMUSDT": {
     "extreme": false,

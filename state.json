@@ -261,7 +261,7 @@
   },
   "ANIMEUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ANKRUSDT": {
     "extreme": false,

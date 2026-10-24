@@ -564,8 +564,8 @@
     "high": false
   },
   "BMTUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "BNBUSDT": {
     "extreme": false,
@@ -2268,8 +2268,8 @@
     "high": false
   },
   "ORDERUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "ORDIUSDT": {
     "extreme": false,

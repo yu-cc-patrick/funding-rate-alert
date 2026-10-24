@@ -565,7 +565,7 @@
   },
   "BMTUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BNBUSDT": {
     "extreme": false,

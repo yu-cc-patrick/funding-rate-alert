@@ -565,7 +565,7 @@
   },
   "BMTUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BNBUSDT": {
     "extreme": false,
@@ -1577,7 +1577,7 @@
   },
   "INUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "INXUSDT": {
     "extreme": false,
@@ -3057,7 +3057,7 @@
   },
   "TREEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "TRIAUSDT": {
     "extreme": false,

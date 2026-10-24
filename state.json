@@ -653,7 +653,7 @@
   },
   "BTWUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BULLAUSDT": {
     "extreme": false,

@@ -312,8 +312,8 @@
     "high": false
   },
   "ARKUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "ARMUSDT": {
     "extreme": false,
@@ -565,7 +565,7 @@
   },
   "BMTUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BNBUSDT": {
     "extreme": false,
@@ -2269,7 +2269,7 @@
   },
   "ORDERUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "ORDIUSDT": {
     "extreme": false,
@@ -3057,7 +3057,7 @@
   },
   "TREEUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "TRIAUSDT": {
     "extreme": false,

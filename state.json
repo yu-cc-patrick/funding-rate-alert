@@ -95,6 +95,10 @@
     "extreme": false,
     "high": false
   },
+  "ABBVUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "ACEUSDT": {
     "extreme": false,
     "high": false
@@ -261,7 +265,7 @@
   },
   "ANIMEUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ANKRUSDT": {
     "extreme": false,
@@ -312,7 +316,7 @@
     "high": false
   },
   "ARKUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ARMUSDT": {
@@ -553,7 +557,7 @@
   },
   "BLURUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BLZUSDT": {
     "extreme": false,
@@ -1075,6 +1079,10 @@
     "extreme": false,
     "high": false
   },
+  "EIDOUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "EIGENUSDT": {
     "extreme": false,
     "high": false
@@ -1108,6 +1116,10 @@
     "high": false
   },
   "EPTUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "EQTUSDT": {
     "extreme": false,
     "high": false
   },
@@ -1577,7 +1589,7 @@
   },
   "INUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "INXUSDT": {
     "extreme": false,
@@ -1588,7 +1600,7 @@
     "high": false
   },
   "IOSTUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "IOTAUSDT": {
@@ -2268,7 +2280,7 @@
     "high": false
   },
   "ORDERUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ORDIUSDT": {
@@ -2408,6 +2420,10 @@
     "high": false
   },
   "POWRUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "PREDICTUSDT": {
     "extreme": false,
     "high": false
   },
@@ -2875,6 +2891,10 @@
     "extreme": false,
     "high": false
   },
+  "STMUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "STMXUSDT": {
     "extreme": false,
     "high": false
@@ -3116,7 +3136,7 @@
     "high": false
   },
   "TUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "TUTUSDT": {

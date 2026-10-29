@@ -1628,7 +1628,7 @@
     "high": false
   },
   "IRYSUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "IWMUSDT": {

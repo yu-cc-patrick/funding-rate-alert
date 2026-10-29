@@ -824,7 +824,7 @@
     "high": false
   },
   "COSTUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "COSUSDT": {
@@ -2940,7 +2940,7 @@
     "high": false
   },
   "STRCUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "STRKUSDT": {
@@ -3176,7 +3176,7 @@
     "high": false
   },
   "TXNUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "TZAUSDT": {

@@ -572,7 +572,7 @@
     "high": false
   },
   "BMTUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "BNBUSDT": {

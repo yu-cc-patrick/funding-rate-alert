@@ -1509,7 +1509,7 @@
   },
   "HOTUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "HPEUSDT": {
     "extreme": false,
@@ -2845,7 +2845,7 @@
   },
   "SOPHUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "SOXLUSDT": {
     "extreme": false,

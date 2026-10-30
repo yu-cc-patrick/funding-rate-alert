@@ -1128,7 +1128,7 @@
     "high": false
   },
   "ERAUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "ESPORTSUSDT": {
@@ -2845,7 +2845,7 @@
   },
   "SOPHUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "SOXLUSDT": {
     "extreme": false,

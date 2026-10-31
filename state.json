@@ -1841,7 +1841,7 @@
   },
   "LSKUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "LTCUSDT": {
     "extreme": false,
@@ -2516,7 +2516,7 @@
     "high": false
   },
   "QUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "RADUSDT": {

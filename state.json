@@ -1841,7 +1841,7 @@
   },
   "LSKUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "LTCUSDT": {
     "extreme": false,

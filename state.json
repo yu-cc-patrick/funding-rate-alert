@@ -676,7 +676,7 @@
     "high": false
   },
   "BXUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "BYDUSDT": {
@@ -1509,7 +1509,7 @@
   },
   "HOTUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "HPEUSDT": {
     "extreme": false,
@@ -2940,7 +2940,7 @@
     "high": false
   },
   "STRCUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "STRKUSDT": {

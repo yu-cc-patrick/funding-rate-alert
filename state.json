@@ -2441,7 +2441,7 @@
   },
   "POWRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "PREDICTUSDT": {
     "extreme": false,

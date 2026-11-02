@@ -1509,7 +1509,7 @@
   },
   "HOTUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "HPEUSDT": {
     "extreme": false,

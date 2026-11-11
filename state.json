@@ -1267,6 +1267,10 @@
     "extreme": false,
     "high": false
   },
+  "FRHCUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "FRONTUSDT": {
     "extreme": false,
     "high": false
@@ -1508,7 +1512,7 @@
     "high": false
   },
   "HOTUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "HPEUSDT": {
@@ -1516,7 +1520,7 @@
     "high": false
   },
   "HUMAUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "HUSDT": {
@@ -1580,7 +1584,7 @@
     "high": false
   },
   "INITUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "INJUSDT": {
@@ -2183,6 +2187,10 @@
     "extreme": false,
     "high": false
   },
+  "NUUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "NVDAUSDT": {
     "extreme": false,
     "high": false
@@ -2516,7 +2524,7 @@
     "high": false
   },
   "QUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "RADUSDT": {
@@ -3160,7 +3168,7 @@
     "high": false
   },
   "TUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "TUTUSDT": {

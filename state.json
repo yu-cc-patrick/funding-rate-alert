@@ -1512,7 +1512,7 @@
     "high": false
   },
   "HOTUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "HPEUSDT": {
@@ -2537,7 +2537,7 @@
   },
   "RAREUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "RAVEUSDT": {
     "extreme": false,
@@ -2761,7 +2761,7 @@
   },
   "SKRUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "SKUUUSDT": {
     "extreme": false,
@@ -2852,7 +2852,7 @@
     "high": false
   },
   "SOPHUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "SOXLUSDT": {

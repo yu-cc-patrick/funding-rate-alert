@@ -2537,7 +2537,7 @@
   },
   "RAREUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "RAVEUSDT": {
     "extreme": false,
@@ -2761,7 +2761,7 @@
   },
   "SKRUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "SKUUUSDT": {
     "extreme": false,
@@ -2948,7 +2948,7 @@
     "high": false
   },
   "STRCUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "STRKUSDT": {

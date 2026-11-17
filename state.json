@@ -279,6 +279,10 @@
     "extreme": false,
     "high": false
   },
+  "ANTUSDT": {
+    "extreme": false,
+    "high": false
+  },
   "APEUSDT": {
     "extreme": false,
     "high": false

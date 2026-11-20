@@ -489,7 +489,7 @@
   },
   "BARDUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "BASEDUSDT": {
     "extreme": false,
@@ -624,7 +624,7 @@
     "high": false
   },
   "BREVUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "BRKBUSDT": {
@@ -1736,8 +1736,8 @@
     "high": false
   },
   "KERNELUSDT": {
-    "extreme": false,
-    "high": true
+    "extreme": true,
+    "high": false
   },
   "KEYUSDT": {
     "extreme": false,
@@ -2573,7 +2573,7 @@
   },
   "RAREUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "RAVEUSDT": {
     "extreme": false,

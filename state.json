@@ -489,7 +489,7 @@
   },
   "BARDUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "BASEDUSDT": {
     "extreme": false,

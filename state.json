@@ -941,7 +941,7 @@
   },
   "CYBERUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "CYPHUSDT": {
     "extreme": false,

@@ -941,7 +941,7 @@
   },
   "CYBERUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "CYPHUSDT": {
     "extreme": false,
@@ -2573,7 +2573,7 @@
   },
   "RAREUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "RAVEUSDT": {
     "extreme": false,

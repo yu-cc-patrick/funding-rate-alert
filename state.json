@@ -100,7 +100,7 @@
     "high": false
   },
   "ACEUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "ACHUSDT": {
@@ -1121,7 +1121,7 @@
   },
   "ENSOUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "ENSUSDT": {
     "extreme": false,
@@ -1540,7 +1540,7 @@
     "high": false
   },
   "HUMAUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "HUSDT": {

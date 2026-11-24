@@ -1289,7 +1289,7 @@
   },
   "FRHCUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "FRONTUSDT": {
     "extreme": false,
@@ -1668,7 +1668,7 @@
     "high": false
   },
   "IRYSUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "IWMUSDT": {
@@ -2988,7 +2988,7 @@
     "high": false
   },
   "STRCUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "STRKUSDT": {

@@ -1289,7 +1289,7 @@
   },
   "FRHCUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "FRONTUSDT": {
     "extreme": false,
@@ -1736,7 +1736,7 @@
     "high": false
   },
   "KERNELUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "KEYUSDT": {

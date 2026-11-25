@@ -1197,7 +1197,7 @@
   },
   "EWZSUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "EWZUSDT": {
     "extreme": false,
@@ -2988,7 +2988,7 @@
     "high": false
   },
   "STRCUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "STRKUSDT": {

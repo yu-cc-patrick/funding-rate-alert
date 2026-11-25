@@ -544,7 +544,7 @@
     "high": false
   },
   "BIGTIMEUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "BILLUSDT": {
@@ -1197,7 +1197,7 @@
   },
   "EWZSUSDT": {
     "extreme": false,
-    "high": true
+    "high": false
   },
   "EWZUSDT": {
     "extreme": false,
@@ -3301,7 +3301,7 @@
   },
   "UVXYUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "UXLINKUSDT": {
     "extreme": false,

@@ -572,8 +572,8 @@
     "high": false
   },
   "BLURUSDT": {
-    "extreme": false,
-    "high": false
+    "extreme": true,
+    "high": true
   },
   "BLZUSDT": {
     "extreme": false,
@@ -3105,7 +3105,7 @@
   },
   "THEUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "TIAUSDT": {
     "extreme": false,

@@ -1445,7 +1445,7 @@
   },
   "HAEDALUSDT": {
     "extreme": false,
-    "high": false
+    "high": true
   },
   "HANAUSDT": {
     "extreme": false,
@@ -1508,6 +1508,10 @@
     "high": false
   },
   "HK1810USDT": {
+    "extreme": false,
+    "high": false
+  },
+  "HK1888USDT": {
     "extreme": false,
     "high": false
   },
@@ -1612,7 +1616,7 @@
     "high": false
   },
   "INITUSDT": {
-    "extreme": true,
+    "extreme": false,
     "high": false
   },
   "INJUSDT": {
@@ -2000,7 +2004,7 @@
     "high": false
   },
   "MEUSDT": {
-    "extreme": false,
+    "extreme": true,
     "high": false
   },
   "MEWUSDT": {
@@ -3456,6 +3460,10 @@
     "high": false
   },
   "XEMUSDT": {
+    "extreme": false,
+    "high": false
+  },
+  "XIAOMIUSDT": {
     "extreme": false,
     "high": false
   },
